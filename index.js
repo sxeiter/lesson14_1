@@ -4,10 +4,10 @@ const article = document.querySelector("article");
 
 const DomElement = {
     selector: prompt("Введите . или #"),
-    height: 300,
-    width: 300,
-    bg: "blue",
-    fontSize: 60,
+    height: 150,
+    width: 150,
+    bg: "white",
+    fontSize: 30,
 
     createElement: function () {
         let text = prompt("Введите название для вашего нового элемента");
